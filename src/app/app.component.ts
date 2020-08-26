@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import bootstrap from "bootstrap";
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'OrderMgmtFabric';
+  title: String = 'Order Mgmt Fabric';
+
 }

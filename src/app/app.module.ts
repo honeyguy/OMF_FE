@@ -10,6 +10,7 @@ import { FulfillmentPlanViewerComponent } from './fulfillment-plan-viewer/fulfil
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { OMFServiceService } from './omfservice.service';
+import { MatTableModule, MatPaginatorModule, MatSortModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,9 @@ import { OMFServiceService } from './omfservice.service';
     MatFormFieldModule,
     MatSelectModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatTableModule,
+    MatPaginatorModule, MatSortModule
   ],
   providers: [OMFServiceService],
   bootstrap: [AppComponent]
